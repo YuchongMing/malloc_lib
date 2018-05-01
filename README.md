@@ -13,18 +13,18 @@ This malloc library is thread safty, and using per-core arena algorithm to maint
             |
             |
          buddy.c  ma_util.c
-            |         |						
-            |         |						
-            |         |						
-            |---------|		                |----calloc.c
-                      |		|----malloc.c---|----memalign.c
-                      |		|               |----posixmemalign.c
-                      |		|
+            |         |
+            |         |
+            |         |
+            |---------|                     |----calloc.c
+                      |     |----malloc.c---|----memalign.c
+                      |     |               |----posixmemalign.c
+                      |     |
                       |-----|----realloc.c---reallocarray.c
                             |
                             |
                             |----free.c
-					  		
+     
 
 ### Buddy System
 
